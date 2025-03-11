@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            border: 2px solid black;
+            height: 400px;
+
+        }
+        li{
+            
+            padding-top: 10px;
+        }
+        a{
+            padding-top: 10px 20px;
+           
+            text-decoration: none;
+            color: black;
+            
+
+        }
+        a:hover{
+            background-color: rgba(0, 255, 255, 0.562);
+            border-radius: 10px;
+            padding: 8px;
+            transition: 0.5s;
+            
+
+        }
+        a:active {
+            transform: scale(3.0);
+            background-color: #0056b3;
+            animation: 0.7s;
+        }
+       
+    </style>
+</head>
+<body>
+
+    <h1>Faça uma escolha</h1>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, labore quam ullam natus quos veritatis modi mollitia voluptas iusto numquam quae, aut nesciunt quo cupiditate. Natus itaque dicta fugit laborum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, cumque ab doloribus velit similique nam repellendus asperiores possimus eum reprehenderit reiciendis aut in soluta modi. Culpa aliquid odio asperiores omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus corporis blanditiis vero commodi harum! Aliquid cumque laboriosam repudiandae saepe repellat esse sint alias corrupti itaque. Magni vel consequuntur dolor.
+    </p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+        <li><a href="paginas-extras/pag004.html" target="frame">Quarta página</a></li>
+    </ul>
+
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam unde veniam dignissimos, adipisci cumque dolore soluta, perspiciatis nostrum similique eos sapiente perferendis voluptas fuga atque culpa! At dolores cupiditate aliquam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos enim consectetur sint, molestiae qui quod incidunt odit distinctio cupiditate? Voluptates sit alias similique atque tenetur repellat facilis quisquam vitae dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam, tempore repellendus atque sint non est, aut exercitationem velit hic facilis quibusdam numquam neque, soluta quae illum fugit consequuntur qui.
+    </p>
+
+    <iframe  id="tela" name="frame" src="">
+
+        <p>Infelizmente seu navegador não é compatível com esse conteúdo.</p>
+    </iframe>
+
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam unde veniam dignissimos, adipisci cumque dolore soluta, perspiciatis nostrum similique eos sapiente perferendis voluptas fuga atque culpa! At dolores cupiditate aliquam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos enim consectetur sint, molestiae qui quod incidunt odit distinctio cupiditate? Voluptates sit alias similique atque tenetur repellat facilis quisquam vitae dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam, tempore repellendus atque sint non est, aut exercitationem velit hic facilis quibusdam numquam neque, soluta quae illum fugit consequuntur qui.
+    </p>
+
+
+    
+</body>
+</html>
